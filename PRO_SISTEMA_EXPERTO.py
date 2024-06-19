@@ -676,6 +676,7 @@ def main():
                     elif boton_no.collidepoint(evento.pos) and RSI:
                         RN = True
                     elif boton_reiniciar.collidepoint(evento.pos):
+                        scroll_y = 0
                         R1 =False
                         R2 =False
                         R3 =False
